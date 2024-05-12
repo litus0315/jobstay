@@ -26,7 +26,7 @@ app.include_router(job_router.router)
 app.include_router(answer_router.router)
 app.include_router(member_router.router)
 app.mount("/assets", StaticFiles(directory="frontend/dist/assets"))
-
+app.mount("/static", StaticFiles(directory="frontend/public/static"), name="static")
 @app.get("/")
 def index():
     return FileResponse("frontend/dist/index.html")

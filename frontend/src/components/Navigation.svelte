@@ -8,7 +8,7 @@
     <div class="container-fluid">
         <div class="col-sm-4">
                     <a class="navbar-brand" href="/" style="color: whitesmoke; font-size: 20pt;">
-            <img src="/image/jobstay_logo.png" style="width:50px; height:50px; margin-right:5px;" alt="logo">
+            <img src="/static/image/jobstay_logo.png" style="width:50px; height:50px; margin-right:5px;" alt="logo">
             <b>잡스테이</b>
         </a>
         </div>
